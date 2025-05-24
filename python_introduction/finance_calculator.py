@@ -14,3 +14,8 @@ projected_savings = annual_savings + interest
 print(f"Your monthly savings are ${monthly_savings:.0f}.")
 print(f"Projected savings after one year, with interest, is: ${projected_savings:.0f}.")
 
+print("Monthly Savings:", monthly_savings)
+print("Annual Savings (before interest):", monthly_savings * 12)
+print("Interest:", monthly_savings * 12 * 0.05)
+
+
