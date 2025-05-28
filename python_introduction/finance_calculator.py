@@ -18,4 +18,3 @@ print("Monthly Savings:", monthly_savings)
 print("Annual Savings (before interest):", monthly_savings * 12)
 print("Interest:", monthly_savings * 12 * 0.05)
 
-
