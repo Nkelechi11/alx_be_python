@@ -7,7 +7,7 @@ monthly_savings = monthly_income - total_monthly_expenses
 # Adding interest rate and making estimations for annual savings
 rate = 0.05
 time = 12
-projected_savings = monthly_savings * time + (monthly_savings * time * rate)
+projected_savings = monthly_savings * 12 + (monthly_savings ** 12 * 0.05)
 
 
 # Display results with formatted values
